@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57ED9A58-308C-4C0A-9DD6-790FF1EF7B21}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TCM</RootNamespace>
+    <AssemblyName>TCM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="nao sei oq fazer com essa pasta mas deixa ela aqui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nao sei oq fazer com essa pasta mas deixa ela aqui.Designer.cs">
+      <DependentUpon>nao sei oq fazer com essa pasta mas deixa ela aqui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu_passaporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_passaporte.Designer.cs">
+      <DependentUpon>menu_passaporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pagamento.Designer.cs">
+      <DependentUpon>pagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slpash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>slpash.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu_cadastro_destino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_cadastro_destino.Designer.cs">
+      <DependentUpon>menu_cadastro_destino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta.Designer.cs">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="agendamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agendamento.Designer.cs">
+      <DependentUpon>agendamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu_cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_cadastro.Designer.cs">
+      <DependentUpon>menu_cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu_cadastro_ciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_cadastro_ciente.Designer.cs">
+      <DependentUpon>menu_cadastro_ciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="nao sei oq fazer com essa pasta mas deixa ela aqui.resx">
+      <DependentUpon>nao sei oq fazer com essa pasta mas deixa ela aqui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_passaporte.resx">
+      <DependentUpon>menu_passaporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pagamento.resx">
+      <DependentUpon>pagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slpash.resx">
+      <DependentUpon>slpash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_cadastro_destino.resx">
+      <DependentUpon>menu_cadastro_destino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta.resx">
+      <DependentUpon>consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agendamento.resx">
+      <DependentUpon>agendamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_cadastro.resx">
+      <DependentUpon>menu_cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_cadastro_ciente.resx">
+      <DependentUpon>menu_cadastro_ciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif.2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esse.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_Easy-Resize.com.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_Easy-Resize.com %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passport %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spencer-davis-0QcSnCM0aMc-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spencer-davis-0QcSnCM0aMc-unsplash_Easy-Resize.com.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spencer-davis-0QcSnCM0aMc-unsplash_Easy-Resize.com %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-logo-mastercard-font-solar-home-text-orange-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-visa-mastercard-credit-card-payment-bank-visa-blue-company-text-service-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard-logo-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa-5-logo-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\francesca-saraco-_dS27XGgRyQ-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anmol-seth-hDbCjHNdF48-unsplash.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
